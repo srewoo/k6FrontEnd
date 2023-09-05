@@ -1,0 +1,13 @@
+{
+    "name": "performance-testing-framework",
+    "version": "1.0.0",
+    "description": "A frontend performance testing framework using k6",
+    "scripts": {
+        "test": "K6_BROWSER_ENABLED=true k6 run --out json=reports/results.json main.js"
+    },
+    "author": "Sharaj Rewoo",
+    "license": "MIT",
+    "dependencies": {
+        "k6-html-reporter": "^1.0.5"
+    }
+}
